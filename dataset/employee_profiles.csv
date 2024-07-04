@@ -1,0 +1,6 @@
+emp_id,name,skills,address,phone_numbers
+1,John Doe,Java$SQL$Python,123 Main St$Anytown$CA$12345,home:123-456-7890$work:234-567-8901
+2,Jane Smith,HTML$CSS$JavaScript,456 Elm St$Othertown$NY$54321,home:345-678-9012$work:456-789-0123
+3,Alice Johnson,C++$Java$Scala,789 Oak St$Sometown$TX$67890,home:567-890-1234$work:678-901-2345
+4,Bob Brown,Go$Rust$Swift,101 Pine St$Anycity$FL$11223,home:789-012-3456$work:890-123-4567
+@Copyrights

@@ -1,0 +1,13 @@
+emp_id,name,salary,month,department
+1,John Doe,5000.00,2024-01,Sales
+2,Jane Smith,5500.00,2024-01,Sales
+1,John Doe,5200.00,2024-02,Sales
+2,Jane Smith,5600.00,2024-02,Sales
+3,Alice Johnson,5300.00,2024-01,Sales
+3,Alice Johnson,5400.00,2024-02,Sales
+4,Bob Brown,7000.00,2024-01,Engineering
+5,Tom White,7200.00,2024-01,Engineering
+4,Bob Brown,7100.00,2024-02,Engineering
+5,Tom White,7300.00,2024-02,Engineering
+6,Mary Black,7400.00,2024-01,Engineering
+6,Mary Black,7500.00,2024-02,Engineering
