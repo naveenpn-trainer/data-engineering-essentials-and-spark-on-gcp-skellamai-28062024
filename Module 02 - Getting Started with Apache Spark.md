@@ -129,14 +129,32 @@ There are two popular ways to create an RDD
    ```
    L = list(range(1,11))
    numbers_rdd = sc.parallelize(L)
-   print(type(numbe))
+   print(type(numbers_rdd))
    ```
 
    
 
 2. Create an RDD from External source
 
+   ```
+   users_rdd = sc.textFile("")
+   print(type(users_rdd))
+   ```
 
+   
+
+## RDD Operations
+
+![img](https://lh7-us.googleusercontent.com/docsz/AD_4nXeGXo9DtQWLWQSwFRv9mkDQQM3AJNG1FYpWGnl2Kqa7Gy-4hDi3VbE2PuyOEMXU2D7SMN7rsCUYDJvBBPGCAVtmje1burqpGEp_wd0IQ8Eim_Qo19ld6Gzv3QCfOcCCfST3KMpVdMPtFw6-KYtLPnm6CT8?key=uvmlVet7-pBAx-jz0PuzLA)
+
+### Transformations
+
+* Transformation creates a new RDD from an existing RDD by applying a certain transformation logic
+* E.g map(), filter(), union(), reduceByKey()
+
+### Actions
+
+* Actions are the final computation which  you perform on an RDD
 
 **Important Points**
 
