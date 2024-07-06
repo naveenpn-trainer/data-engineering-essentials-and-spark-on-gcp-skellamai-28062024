@@ -27,3 +27,23 @@ In any Spark Application you perform three steps.
 * It is similar to a tables in relational database, they store data in columns and rows i.e. DataFrames have schema
 * Provides operations to Filter, Group, Aggregate etc.
 * Can be created from different source like HDFS, Hive, CSV, JSON, Cassandra etc.
+
+**DataFrame Reader**
+
+* The primary interface to create DF is via DataFrameReader
+
+  ```
+  dfr = spark.read
+  typ
+  ```
+
+  
+
+* All the methods to create DF is present inside DataFrameReader
+
+  * .csv
+  * .json
+  * .jdbc
+  * .load
+  * .parquet
+  * .orc
