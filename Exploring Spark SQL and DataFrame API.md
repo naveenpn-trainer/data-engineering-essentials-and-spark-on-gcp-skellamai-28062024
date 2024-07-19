@@ -34,7 +34,7 @@ In any Spark Application you perform three steps.
 
   ```
   dfr = spark.read
-  typ
+  type(dfr)
   ```
 
   
